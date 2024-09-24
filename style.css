@@ -76,6 +76,9 @@ hr{
 .member .position{
     color: grey;
 }
+.tariffs{
+    position: relative;
+}
 .tariff{
     display: inline-block;
     width: 49%;
@@ -174,4 +177,30 @@ hr{
 }
 #designers, #services, #packages, #contact, #footer{
     margin-top: 75px;
+}
+#modal{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid grey;
+    display: none;
+}
+#modal span{
+    text-align: right;
+    margin: 3px;
+    font-size: 28px;
+    float: right;
+    cursor: pointer;
+}
+#modal h3{
+    text-align: center;
+    margin: 0;
+
+}
+#modal p{
+    text-align: center;
 }
